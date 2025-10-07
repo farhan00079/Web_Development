@@ -21,18 +21,21 @@
     <div class="todo-container">
 
         <h1>Welcome to my To Do List Website</h1>
-        <input type="text" placeholder="Add a new task">
-        <button id="btn">Add Task</button>
+        <input id = "input-box" type="text" placeholder="Add a new task">
+        <button id="btn" onclick="addTask()">Add Task</button>
         <h3>Task List</h3>
+        <ul id = "list-container"></ul>
 
     </div>
 
     <hr />
 
     <div class = "counter">
-        <h1>Completed : <span id = "completed-count">0</h1> | Uncompleted 
+        Completed : <span id = "completed-count">0 | Uncompleted : <span id = "Uncompled-count"> 0</span>
     </div>
+
     <script src="index.js"></script>
+   
 </body>
 
 </html>

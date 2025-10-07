@@ -6,3 +6,9 @@ li {
     background-color: aqua;
  
 }
+
+.completed {
+    text-decoration: line-through;
+    color: grey;
+    border: 1px solid grey;
+}
