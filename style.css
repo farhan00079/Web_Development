@@ -7,7 +7,7 @@ li {
  
 }
 
-.completed {
+.completed span {
     text-decoration: line-through;
     color: grey;
     border: 1px solid grey;
